@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/giftCard.css" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/giftCard.css" rel="stylesheet">
     <title>Gift Card</title>
 </head>
 <body>
@@ -15,7 +13,7 @@
     <!--Image-->
     <div class="row">
         <div class="col-md-12 padding0">
-            <img src="img/july_2016_gift_cards_01.png" class="img-responsive" alt="">
+            <img src="img/gift_card_top.jpg" class="img-responsive" alt="">
         </div>
      </div>
 
@@ -59,29 +57,35 @@
 
     <!--Congratulations-->
     <div class="row">
-        <div class="col-md-6 col-md-offset-3 margintop2em">
-            <img src="img/form_gift_card.png" class="img-responsive center" alt="postcard" style="position: absolute">
-            <div class="row" style="position: relative; margin-top: 17%; display: inline-block">
-                <div class="">
-
-                    To Email
-                    <input type="text" class="dotted" id="emailTo">
-                    From Email
-                    <input type="text" class="dotted" id="emailFrom">
-                </div>
-                <div>
-                    <p class="splento-font text-center" style="margin-top: 1em; ">splento</p>
-                </div>
-                <div >
-                    A few words
-                   <input type="text" class="dotted" id="fewWords">
-                </div>
-
+        <div class="row">
+            <div style="position: absolute; width: 100%">
+                <img src="img/gift_card_to_from_background.jpg" class="img-responsive center gift-card-img">
+            </div>
+            <div class="col-lg-2 col-lg-offset-3 col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-1" style="position: relative; margin-top: 14em" >
+                <p class="text-center open-sans15" style="margin-left: 2em">TO EMAIL</p>
+                <input type="text" class="dotted-gradient" id="emailTo" style="margin-left: 10px">
+                <p class="text-center open-sans15" style="margin-top: 2em; margin-left: 2em ">FROM EMAIL</p>
+                <input type="text" class="dotted-gradient" id="emailFrom" style="margin-left: 2em">
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3"  style="position: relative; margin-top: 14em">
+                <p class="splento-font text-center" style="margin-top: 1em; ">splento</p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3" style="position: relative; margin-top: 13em">
+                <p class="text-center open-sans15" style="margin-right: 4em;">A FEW WORDS</p>
+                <textarea class="rows-border-bottom" name="fewWords" cols="28" rows="4" style="margin-right: 4em;"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+                <p class="text-center" style="margin-top: 4em">
+                    <span class="myrad-pro">REDEEM AT </span><a href="//splento.com/redeem" class="myrad-pro">SPLENTO.COM/REDEEM</a>
+                </p>
             </div>
         </div>
     </div>
-
 </div>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
