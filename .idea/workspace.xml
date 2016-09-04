@@ -57,8 +57,8 @@
       <file leaf-file-name="giftCard.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/giftCard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+            <state relative-caret-position="224">
+              <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -293,12 +293,12 @@
       <workItem from="1472939876125" duration="1714000" />
       <workItem from="1472995637013" duration="1993000" />
       <workItem from="1472997708694" duration="2000000" />
-      <workItem from="1472999743312" duration="1125000" />
+      <workItem from="1472999743312" duration="1348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122218000" />
+    <option name="totallyTimeSpent" value="122441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3214" height="1754" extended-state="0" />
@@ -812,8 +812,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/giftCard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
           <folding />
         </state>
       </provider>

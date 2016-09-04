@@ -232,18 +232,6 @@ input:focus, textarea:focus{
     }
 }
 
-@media only screen and (max-device-width: 1086px)  {
-    /*.margin-top12em {*/
-        /*margin-top: 9em;*/
-    /*}*/
-    /*.margin-top14em {*/
-        /*margin-top: 12em;*/
-    /*}*/
-    /*.margin-top4em {*/
-        /*margin-top: 1em;*/
-    /*}*/
-}
-
 @media only screen and (max-device-width: 1024px){
     .background-img{
         display: none;
