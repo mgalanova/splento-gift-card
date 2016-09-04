@@ -28,12 +28,10 @@
          url(../fonts/SplentoFont.svg#SplentoFont) format('svg');
 }
 
-.open-sans-light{
-    font-family: "Open Sans Light";
-}
-
-.open-sans-bold{
-     font-family: "Open Sans Bold";
+.myrad-pro{
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    color: #00BBC9;
 }
 
 .splento-font{
@@ -41,6 +39,14 @@
     font-size: 70px;
     color: #00BBC9;
     margin-bottom: -0.4em;
+}
+
+.open-sans-light{
+    font-family: "Open Sans Light";
+}
+
+.open-sans-bold{
+     font-family: "Open Sans Bold";
 }
 
 .open-sans12{
@@ -65,12 +71,6 @@
     font-size: 20px;
     margin-left: -10px;
     margin-top: -10px;
-}
-
-.myrad-pro{
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    color: #00BBC9;
 }
 
 .font-size-15{
